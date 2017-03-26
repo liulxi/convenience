@@ -1,0 +1,466 @@
+@charset="utf-8";
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #48a75b;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header .header-1000 {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header .header-1000 img:first-of-type {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.header .header-1000 img:last-of-type {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 26px;
+    left: 190px;
+}
+
+
+/* main */
+
+.main-top {
+    width: 100%;
+    height: 62px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fbfbfb;
+}
+
+.main-top .top-1000 {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-top .top-1000 img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 24px;
+    left: 14px;
+}
+
+.main-top .top-1000 span {
+    font-size: 16px;
+    line-height: 62px;
+    margin-left: 36px;
+}
+
+.main-top .top-1000 p {
+    font-size: 16px;
+    position: absolute;
+    top: 24px;
+    right: 0;
+    line-height: 16px;
+}
+
+
+/* main-middle */
+
+.main {
+    width: 100%;
+    height: 556px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fbfbfb;
+}
+
+.main .middle-1000 {
+    width: 1000px;
+    height: 554px;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main .middle-1000 .middle-t {
+    width: 100%;
+    height: 84px;
+    position: relative;
+    background-image: linear-gradient(to bottom, #edfae7, #fbfdfa);
+}
+
+.main .middle-1000 .middle-t span:first-of-type {
+    font-size: 16px;
+    position: absolute;
+    top: 14px;
+    left: 36px;
+}
+
+.main .middle-1000 .middle-t span:nth-of-type(2) {
+    font-size: 16px;
+    position: absolute;
+    top: 14px;
+    left: 424px;
+}
+
+.main .middle-1000 .middle-t span:last-of-type {
+    font-size: 16px;
+    position: absolute;
+    top: 14px;
+    right: 36px;
+}
+
+.main .middle-1000 .middle-t .middle-img {
+    width: 100%;
+    height: 36px;
+    position: absolute;
+    top: 40px;
+}
+
+.main .middle-1000 .middle-t .middle-img img:first-of-type {
+    margin-left: 56px;
+    float: left;
+}
+
+.main .middle-1000 .middle-m {
+    width: 100%;
+    height: 472px;
+    position: relative;
+}
+
+.main .middle-1000 .middle-m .middle1 {
+    width: 380px;
+    height: 70px;
+    position: absolute;
+    top: 96px;
+    left: 308px;
+}
+
+.main .middle-1000 .middle-m .middle1 img {
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.main .middle-1000 .middle-m .middle1 p {
+    font-size: 16px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 35px;
+}
+
+.main .middle-1000 .middle-m .middle1 p span {
+    color: #ff9000;
+}
+
+.main .middle-1000 .middle-m .middle1 input {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    background: #ff9000;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.main .middle-1000 .middle-m .middle2 {
+    width: 202px;
+    height: 212px;
+    border: 1px solid #eee;
+    position: absolute;
+    top: 230px;
+    left: 396px;
+}
+
+.main .middle-1000 .middle-m .middle2 img:first-of-type {
+    width: 153px;
+    height: 150px;
+    margin: 25px 25px 0 25px;
+}
+
+.main .middle-1000 .middle-m .middle2 img:last-of-type {
+    width: 119px;
+    height: 17px;
+    margin: 10px 40px;
+}
+
+
+/* mian-foo */
+
+.main-foo {
+    width: 100%;
+    height: 110px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fbfbfb;
+    border-bottom: 2px solid #eee;
+}
+
+.main-foo .main-f1000 {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+    position: relative;
+    top: 74px;
+    left: 230px;
+}
+
+.main-foo .main-f1000 ul li {
+    width: 120px;
+    height: 34px;
+    float: left;
+    margin-top: -10px;
+    position: relative;
+}
+
+.main-foo .main-f1000 ul li img {
+    width: 2px;
+    height: 29px;
+    position: absolute;
+    right: 0;
+    top: 3px;
+}
+
+.main-foo .main-f1000 ul li span {
+    width: 100px;
+    height: 34px;
+    color: #818485;
+    font-size: 16px;
+    text-align: center;
+    line-height: 34px;
+    position: absolute;
+    top: 4px;
+    left: 32px;
+}
+
+.main-foo .main-f1000 ul li span:first-of-type {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    ;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fbfbfb;
+}
+
+.footer .footer-1000 {
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #818485;
+    line-height: 12px;
+    position: absolute;
+    top: 20px;
+    left: 290px;
+}
+
+.footer span {
+    color: #b5b8bd;
+}
+
+
+/*alert*/
+
+.aler {
+    width: 358px;
+    height: 380px;
+    border-radius: 10px;
+    border: 1px solid #cdfdd6;
+}
+
+.aler ul {
+    width: 358px;
+    height: 55px;
+}
+
+.aler ul li {
+    width: 179px;
+    height: 55px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #999;
+    line-height: 55px;
+    border-bottom: 1px solid #49a75b;
+    cursor: pointer;
+}
+
+.aler .login {
+    width: 302px;
+    height: 190px;
+    margin: 0 auto;
+    display: none;
+}
+
+.aler .login form p {
+    margin-top: 30px;
+}
+
+.aler .login form p #phone,
+.aler .login form p #pwd {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.aler .login form p:nth-child(3) {
+    margin-top: 10px;
+}
+
+.aler .login form p input[id=box] {
+    float: left;
+}
+
+.aler .login form p span {
+    float: left;
+    margin-left: 5px;
+}
+
+.aler .login form p input::-webkit-input-placeholder {
+    text-indent: 40px;
+}
+
+.aler .codelogin form p input::-webkit-input-placeholder {
+    text-indent: 40px;
+}
+
+.aler .login form p a {
+    float: right;
+}
+
+.aler .login form p button {
+    width: 300px;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background: #49a75b;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.aler .login form .error {
+    color: red;
+    display: none;
+}
+
+.aler .codelogin {
+    width: 302px;
+    height: 190px;
+    margin: 0 auto;
+    display: none;
+}
+
+.aler .codelogin form p:not(#last) {
+    margin-top: 25px;
+}
+
+.aler .codelogin p:first-child input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.aler .codelogin p:nth-child(2) input {
+    width: 124px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.aler .codelogin p:nth-child(3) input {
+    width: 124px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.aler .codelogin p:nth-child(3) button {
+    width: 100px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 5px;
+}
+
+.aler .codelogin form p:nth-child(4) button {
+    width: 300px;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background: #49a75b;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.aler .codelogin form p a {
+    color: #38a5e8;
+}
+
+.aler .down {
+    width: 339px;
+    height: 52px;
+    background: #f7fbf5;
+    margin: 0 auto;
+    line-height: 52px;
+    margin-top: 30px;
+}
+
+.aler .down p {
+    color: #000;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+}
+
+.aler {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -179px;
+    margin-top: -190px;
+    z-index: 200;
+    background: #fff;
+    display: none;
+}
+
+.aler ul li.on {
+    color: #49a75b;
+    border-bottom: 4px solid #49a75b;
+}

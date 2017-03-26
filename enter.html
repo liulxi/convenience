@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>方便网登录</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/enter.css">
+    
+    <!-- <script src="js/jquery-1.10.1.min.js"></script> -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+    <script src="js/enter.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="header-1000">
+            <img src="images/logo.png" alt="">
+            <img src="images/logo1.png" alt="">
+        </div>
+    </div>
+    <!-- main -->
+    <div>
+        <div class="main-top">
+            <div class="top-1000">
+                <img src="images/icon9_1.png">
+                <span><a href="register.html">注册会员</a></span>
+                <p>我已经注册，现在就登录<a href="">登录</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- main-middle -->
+    <div class="main">
+        <div class="middle-1000">
+            <div class="middle-t">
+                <span>填写注册信息</span>
+                <span>接受并填写手机验证码</span>
+                <span>注册成功</span>
+                <div class="middle-img">
+                    <img src="images/regis1.png" alt="">
+                    <img src="images/regis2.png" alt="">
+                    <img src="images/regis5.png" alt="">
+                </div>
+            </div>
+            <div class="middle-m">
+                <div class="middle1">
+                    <img src="images/icon34.png" alt="">
+                    <p>恭喜您，注册已成功！
+                        <br>登录名为：<span id="phone">18855950448</span></p>
+                    <input type="button " value="立即登录" id="btn-login">
+                </div>
+                <div class="middle2">
+                    <img src="images/webchat.png" alt="">
+                    <img src="images/text.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main-foo -->
+    <div class="main-foo">
+        <div class="main-f1000">
+            <ul>
+                <li><span>关于我们</span><img src="images/back2.png" alt=""></li>
+                <li><span>免责声明</span><img src="images/back2.png" alt=""></li>
+                <li><span>常见问题</span><img src="images/back2.png" alt=""></li>
+                <li><span>联系我们</span><img src="images/back2.png" alt=""></li>
+                <li><span>人才招聘</span></li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-1000">
+            <p>
+                <span>Copyright@ 2013-2016 </span>| 苏CIP备12063525号-4 苏州 乐卡网路科技有限公司
+            </p>
+        </div>
+    </div>
+    <!-- aletr -->
+    <div>
+        <div class="back"></div>
+        <div class="aler">
+            <ul>
+                <li>密码登录</li>
+                <li>手机验证码登录</li>
+            </ul>
+            <div class="wrap">
+                <div class="login">
+                    <form action="success.html">
+                        <p>
+                            <input type="text" placeholder="手机号" id="phone">
+                        </p>
+                        <p>
+                            <input type="password" placeholder="密码" id="pwd">
+                        </p>
+                        <span class="error">手机号或密码输入错误</span>
+                        <p>
+                            <input type="checkbox" id="box"><span>自动登录</span><a href="#">忘记密码？</a></p>
+                        <p>
+                            <button id="login-btn">登录</button>
+                        </p>
+                    </form>
+                </div>
+                <div class="codelogin">
+                    <form>
+                        <p>
+                            <input type="text" placeholder="手机号" id="phone">
+                        </p>
+                        <p>
+                            <input type="text" placeholder="验证码" id="pwd"><img src="images/icon32.png"><span>看不清楚？<a href="">换一张</a></span></p>
+                        <p>
+                            <input type="text" placeholder="手机验证码">
+                            <button>获取验证码</button>
+                        </p>
+                        <p id="last">
+                            <button>登录</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="down">
+                <p>还不是方便会员？<a href="#">立即注册</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
