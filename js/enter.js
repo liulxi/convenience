@@ -22,17 +22,14 @@ $(function() {
 
 
     $("#login-btn").click(function() {
-        // console.log(1);
         var count = localStorage.count;
         for (var i = 1; i <= count; i++) {
             var phone = localStorage.getItem("phone" + i);
             var pwd = localStorage.getItem("password" + i);
-            if (($(".login #phone").val() == phone) && ($(".login #pwd").val() == pwd)) {
-                // console.log(2);
+            if (($(".login #phone").val()==phone) && ($(".login #pwd").val()==pwd)) {
                 $("#login-btn").submit();
-                // location.href="success.html"
             } else {
-                $("section .aler .login form .error").show();
+                $(".login form .error").show();
                 return false;
             }
         }

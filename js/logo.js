@@ -1,9 +1,8 @@
 $(function() {
     //获取cookie中电话号码
-    var phone = localStorage.getItem("phone" + localStorage.count)
-    $("#cookiephone").innerHTML = phone;
+    var count=localStorage.getItem("count");
+    $("#cookiephone").text(localStorage.getItem("phone"+count));
     $("#cookiephone").css("color", "#ff9000");
-    console.log(phone);
     //生成四位验证码
     function codes() {
         var str = "";
